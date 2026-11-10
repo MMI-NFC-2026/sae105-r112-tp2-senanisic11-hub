@@ -5,4 +5,9 @@
     height: 100%;
     border: 0%;
 }
-
+/* Page figée tant que le menu est ouvert.
+   :has() — extrait fourni : seul moyen, en CSS, de faire remonter l'état
+   du menu jusqu'à la page. */
+html:has(.menu:popover-open) {
+  overflow: hidden;
+}
