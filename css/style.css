@@ -26,7 +26,6 @@ html:has(.menu:popover-open) {
     opacity: 0;
   }
 }
-/* À l'ouverture, même position « hamburger » */
 @starting-style {
   .menu:popover-open .burger--close {
     transform: none;
