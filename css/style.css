@@ -12,7 +12,6 @@ html:has(.menu:popover-open) {
 }
 
 .menu {
-  /* … on complète le bloc existant … */
   transition: 400ms allow-discrete;
   opacity: 0;
 }
